@@ -23,9 +23,9 @@ if (!empty($_POST["btningresar"])) {
                     $_SESSION["nombres"]= $datosLogin["nombres"];
                     $_SESSION["apellidos"]= $datosLogin["apellidos"];
                     header ("location:home.php"); 
-            }else echo "<script>alert('usuario o contraseña incorecto'); </script>";
+            }else echo "<script>alert('Usuario o contraseña incorrecto'); </script>";
             
-        }else echo "<script>alert('usuario no existe en la base de datos'); </script>";
+        }else echo "<script>alert('Usuario no existe en la Base de Datos'); </script>";
  
     }else echo "<script>alert('Ingrese usuario y contraseña'); </script>";
 }
